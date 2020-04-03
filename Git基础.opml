@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Fri Apr 03 2020 14:28:06 GMT+0800 (中国标准时间)</dateCreated>
+		<dateModified>Fri Apr 03 2020 14:28:06 GMT+0800 (中国标准时间)</dateModified>
+	</head>
+	<body>
+		<outline text="Git基础">
+			<outline text="安装帮助">
+				<outline text="安装
+Windows：GitforWindows
+Debian系列、Linux：apt-get install git
+Fedora：yum install git-core"></outline>
+				<outline text="帮助：在终端输入git"></outline>
+			</outline>
+			<outline text="GitHub">
+				<outline text="新建仓库：New repository"></outline>
+			</outline>
+			<outline text="基础操作">
+				<outline text="git init :将一个已存在的文件夹，置于Git的控制管理之下"></outline>
+				<outline text="git cinfig --global user.name “YourName&quot;"></outline>
+				<outline text="git config --global user.email &quot;YourEmail@xxx.com&quot;"></outline>
+			</outline>
+			<outline text="提交代码流程">
+				<outline text="git add：将创建或修改的文件添加到本地的暂存区，此处为临时更改，格式 git add +文件名/目录名
+git add README.md         
+git add --all"></outline>
+				<outline text="git commit:提交文件到本地仓库，用来保存版本
+git commit -m &quot;注释”
+-m &quot;注释&quot; 编辑注释信息"></outline>
+			</outline>
+			<outline text="连接远端仓库">
+				<outline text="git remote：连接GitHub仓库
+git remote add 仓库小名 仓库链接
+仓库链接是https://github.com/wangqi1994/Louplus.git"></outline>
+				<outline text="git push：将本地代码库同步到远端仓库
+git push 仓库小名 分支名
+总分支：master"></outline>
+				<outline text="git clone：克隆GitHub上的仓库到本地
+git clone 仓库链接"></outline>
+			</outline>
+		</outline>
+		<outline text="XMind: ZEN - Trial Version"></outline>
+	</body>
+</opml>
